@@ -1,0 +1,482 @@
+[
+    {
+        "s_id": 1,
+        "name": "Taj Resorts",
+        "address": "Mumbai",
+        "pic": "tajResort.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 2,
+        "name": "Oberoi Hotels",
+        "address": "Mumbai",
+        "pic": "OberoiHotel.jpg",
+        "price": 800,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 3,
+        "name": "ITC Hotels",
+        "address": "Delhi",
+        "pic": "ITCHotel.jpg",
+        "price": 700,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 4,
+        "name": "Le meridian",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 5,
+        "name": "Ashok Hotels",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 6,
+        "name": "Maurya Hotels",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 7,
+        "name": "Umaid Bhawan Palace",
+        "address": "Jodhpur, Rajasthan",
+        "pic": "UmaidBhawan.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 8,
+        "name": "Rambagh Palace",
+        "address": "Jaipur, Rajasthan",
+        "pic": "ITCMaurya.jpg",
+        "price": 600,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 9,
+        "name": "Jawahar Niwas Palace",
+        "address": "Jaisalmer, Rajasthan",
+        "pic": "jawaharniwaspalace.jpg",
+        "price": 800,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 10,
+        "name": "Spice Village",
+        "address": "Thekkady, Kochi",
+        "pic": "SpiceVillage.jpg",
+        "price": 700,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 11,
+        "name": "Brunton Boatyard",
+        "address": "Kochi",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 12,
+        "name": "Centaur Hotel",
+        "address": "New Delhi",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 13,
+        "name": "Hotel Airport International",
+        "address": "Mumbai",
+        "pic": "OberoiHotel.jpg",
+        "price": 500,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 14,
+        "name": "Hotel Airport Ashok",
+        "address": "Kolkata",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 15,
+        "name": "Leela Palace Hotel",
+        "address": "Bangalore",
+        "pic": "LeelaHotel.jpg",
+        "price": 600,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 16,
+        "name": "Le Royal Meridien Hotel",
+        "address": "Chennai",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 17,
+        "name": "The Residence Apartment",
+        "address": "Mumbai",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 18,
+        "name": "Seasons Service Apartments",
+        "address": "Pune",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 19,
+        "name": "Lakeside Chalet Apartment",
+        "address": "Link Servie Road, Mumbai",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 20,
+        "name": "Varcity Emerald",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 21,
+        "name": "Hotel Chetan International",
+        "address": "Sanwayam Kant, Madras",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 22,
+        "name": "Hotel Townhall",
+        "address": "Hauz Khas, Delhi",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 23,
+        "name": "Varcity Pearl",
+        "address": "Kalyan Nagar, Kanpur",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 24,
+        "name": "Compact Green View",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 25,
+        "name": "Hotel Pearl Inn",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 26,
+        "name": "Grand Regency",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 27,
+        "name": "Hotel Diva Residency",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 28,
+        "name": "Goyal Residency",
+        "address": "Sanwayam Kant, Madras",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 29,
+        "name": "Petuni Boutique Hotel",
+        "address": "Hauz Khas, Delhi",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 30,
+        "name": "Royal Inchara",
+        "address": "Kalyan Nagar, Kanpur",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 31,
+        "name": "Priyanka Residency",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 32,
+        "name": "Canvas Suites",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 33,
+        "name": "Hotel Maurya Paradise Inn",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 34,
+        "name": "Shree Adiga Residency",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 35,
+        "name": "Hotel Amster Inn",
+        "address": "Sanwayam Kant, Madras",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 36,
+        "name": "Hotel Aaira Inn",
+        "address": "Hauz Khas, Delhi",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 37,
+        "name": "Hotel Bcp Royal Residency",
+        "address": "Kalyan Nagar, Kanpur",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 38,
+        "name": "Hotel Paradise Inn",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 39,
+        "name": "Savi International",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 40,
+        "name": "Hotel Keerthana International",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 41,
+        "name": "Hotel Victoria Heights",
+        "address": "Hauz Khas, Delhi",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 42,
+        "name": "Hotel Cosmopolitan",
+        "address": "Kalyan Nagar, Kanpur",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 43,
+        "name": "The Ocea International",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 44,
+        "name": "Tiny Tap Rooms",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 45,
+        "name": "Hotel Bangalore International",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 46,
+        "name": "Amethyst Business Hotel",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 47,
+        "name": "PMR Hotel",
+        "address": "Sanwayam Kant, Madras",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 48,
+        "name": "Rajmahal Comforts",
+        "address": "Mirzapur",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 49,
+        "name": "Majestic KG Road",
+        "address": "Vindhyachal",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 50,
+        "name": "Mayuri Residency",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 51,
+        "name": "Srinidhi Residency",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 52,
+        "name": "Hotel Fiesta Grand",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 53,
+        "name": "TThe Pride",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 54,
+        "name": "Hotel Turista",
+        "address": "Sanwayam Kant, Madras",
+        "pic": "hotel2.jpg",
+        "price": 600,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 55,
+        "name": "Sasya Homes",
+        "address": "Hauz Khas, Delhi",
+        "pic": "hotel1.jpg",
+        "price": 600,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 56,
+        "name": "Champion Lotus",
+        "address": "Kalyan Nagar, Kanpur",
+        "pic": "hotel2.jpg",
+        "price": 800,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 57,
+        "name": "Manu Residency",
+        "address": "Cantonment Area, Varanasi",
+        "pic": "hotel3.jpg",
+        "price": 700,
+        "hType": "Oyo"
+    },
+    {
+        "s_id": 58,
+        "name": "Varcity Comforts",
+        "address": "Civil Lines, Allahabad",
+        "pic": "hotel5.jpg",
+        "price": 900,
+        "hType": "Apartment"
+    },
+    {
+        "s_id": 59,
+        "name": "Alankar Residency",
+        "address": "Link Servie Road, Pune",
+        "pic": "hotel6.jpg",
+        "price": 1200,
+        "hType": "Hotel"
+    },
+    {
+        "s_id": 60,
+        "name": "Varcity Emerald",
+        "address": "Upadhyay Nagar, Gujrat",
+        "pic": "hotel6.jpg",
+        "price": 500,
+        "hType": "Oyo"
+    }
+]

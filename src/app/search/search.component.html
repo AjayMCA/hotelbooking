@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-11">
+            <div class="form-group">
+                <input type="text" class="form-control" #ST (keyup)="search(ST.value)">
+            </div>
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-outline-primary btn-block" (click)="search(ST.value)"><i class="fa fa-search">Search</i></button>
+        </div>
+    </div>
+</div>

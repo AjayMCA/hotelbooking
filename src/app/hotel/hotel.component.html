@@ -1,0 +1,87 @@
+<br>
+<!-- <app-search (searchEvent)="productSearch($event)"></app-search> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" (keyup)="productSearch()" [(ngModel)] = searchQuery>
+            </div>
+        </div>
+        <!-- <div class="col-md-1">
+            <button class="btn btn-outline-primary btn-block"><i class="fa fa-search">Search</i></button>
+        </div> -->
+    </div>
+</div>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 example">
+            <strong>Accomodation Type</strong>
+            <hr>
+                <div class="inline-text" *ngFor="let checklist of checkboxList">
+                    <input class="form-check-input" type="checkbox"
+                    [value]="checklist.label" [checked]="checklist.select"
+                    (change)="onChage($event)">
+                    <div>
+                        {{checklist.label}}
+                    </div>
+                </div>
+                <hr>
+            </div>
+            
+        <div class="col-md-10">
+            <div class="row" let *ngFor="let hotel of hotelData | paginate: { itemsPerPage: pageSize, currentPage: page }">
+                <div class="col-md-5">
+                    <img class="d-block w-100" src="../../assets/{{hotel.pic}}" height="268px" /><br>
+                </div>
+                <div class="col-md-7">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <h4 style="font-family: 'Times New Roman', Times, serif;">{{hotel.name}}</h4>
+                                    <span>{{hotel.address}}</span>
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="text-right">{{hotel.price | currency:'INR'}}</p>
+                                    <button class="btn btn-success float-right" (click)="booking()">Book Now</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge badge-info">Amenities</span>
+                            <div style="overflow-x:auto;">
+                                <table class="table responsive">
+                                    <tbody>
+                                        <tr>
+                                            <td><i class='fas fa-wind'></i>&nbsp;AC</td>
+                                            <td><i class="fa fa-tv"></i>&nbsp;TV
+                                            </td>
+                                            <td><i class="fa fa-wifi"></i>&nbsp;Wifi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <i class="fa fa-battery-full"></i>&nbsp;Power Backup
+                                            </td>
+                                            <td>
+                                                <i class="fa fa-shower"></i>Geyser
+                                            </td>
+                                            <td>
+                                                <i class='fas fa-home'></i>Kitchen
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <pagination-controls (pageChange)="page = $event" class="float-right"></pagination-controls>
+            </div>
+        </div>
+    </div>
+</div>
