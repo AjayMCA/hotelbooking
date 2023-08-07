@@ -21,13 +21,15 @@
     <div class="row">
         <div class="col-12 col-md col-sm">
             <div class="jumbotron">
-                <p class="lead"><strong>Sunrise Travel</strong> is a knowledge platform for the hotel, hospitality & travel
+                <p class="lead"><strong>Sunrise Travel</strong> is a knowledge platform for the hotel, hospitality &
+                    travel
                     industry.
                     Professionals use our marketing, revenue management, technology and software insights, strategies
                     and actionable tips to get inspired, optimise revenue, innovate processes and improve customer
                     experience.
                     <br>
-                    The strength of Sunrise Travel is that it consists of high quality and unique knowledge-base content.
+                    The strength of Sunrise Travel is that it consists of high quality and unique knowledge-base
+                    content.
                     Every article provides explanatory and actionable solutions.
                 </p>
             </div>
@@ -41,22 +43,43 @@
                 <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
-                                placeholder="Enter name" required>
+                            <mat-label class="required">Name</mat-label>
+                            <mat-form-field>
+                                <input matInput type="text" class="form-control" id="name" aria-describedby="name"
+                                    placeholder="Enter name" formControlName="name">
+                                <mat-error *ngIf="contactForm.controls['name'].hasError('required')">
+                                    Name is required
+                                </mat-error>
+                            </mat-form-field>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
+                            <mat-label class="required">Email address</mat-label>
+                            <mat-form-field>
+                                <input matInput type="email" class="form-control" id="email" aria-describedby="email"
+                                    placeholder="Enter email" formControlName="email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                                    <mat-error *ngIf="contactForm.controls['email'].hasError('required')">
+                                        Email is required
+                                    </mat-error>
+                                    <mat-error *ngIf="contactForm.controls['email'].hasError('email')">
+                                        Enter Valid Email
+                                    </mat-error>
+                            </mat-form-field>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                            <mat-label class="required">Message</mat-label>
+                            <mat-form-field>
+                                <textarea matInput class="form-control" id="message" rows="6" formControlName="message"></textarea>
+                                <mat-error *ngIf="contactForm.controls['message'].hasError('required')">
+                                    Message is required
+                                </mat-error>
+                                <mat-error *ngIf="contactForm.controls['message'].hasError('minlength')">
+                                    Enter Minimum 10 Words.
+                                </mat-error>
+                            </mat-form-field>
                         </div>
                         <div class="mx-auto">
                             <button type="submit" class="btn btn-primary text-right">Submit</button>

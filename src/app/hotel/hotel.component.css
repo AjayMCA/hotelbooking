@@ -1,7 +1,13 @@
 .inline-text{
     margin-left: 20px;
   }
-  
+  .img-fluid {
+    height: 238px;
+}
+
+.col-md-8 {
+  width: 62.666667%;
+}
   form.example input[type=text] {
     padding: 10px;
     font-size: 17px;

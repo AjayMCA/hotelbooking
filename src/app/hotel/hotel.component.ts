@@ -12,6 +12,7 @@ export class HotelComponent implements OnInit {
   searchQuery: string = '';
   page: number = 1;
   pageSize = 5;
+  selectedCheckbox:any = [];
   totalItems: number = this.hotelData.length;
 
   private URL = '../assets/hotel.json';
@@ -39,18 +40,21 @@ export class HotelComponent implements OnInit {
   onChage(event: any) {
     const getCheckboxValue = event.target.value;
     const isChecked = event.target.checked;
-    if(getCheckboxValue ==''){
-      this.fetchData();
+    for(var check of this.checkboxList){
+      
     }
-    if(getCheckboxValue == 'Apartment'){
-      this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Apartment')
-    }
-    if(getCheckboxValue == 'Hotel'){
-      this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Hotel')
-    }
-    if(getCheckboxValue == 'Oyo'){
-      this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Oyo')
-    }
+    // if(getCheckboxValue ==''){
+    //   this.fetchData();
+    // }
+    // if(getCheckboxValue == 'Apartment'){
+    //   this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Apartment')
+    // }
+    // if(getCheckboxValue == 'Hotel'){
+    //   this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Hotel')
+    // }
+    // if(getCheckboxValue == 'Oyo'){
+    //   this.hotelData = this.hotelData.filter((da:any) => da.hType == 'Oyo')
+    // }
   }
 
   productSearch() {
