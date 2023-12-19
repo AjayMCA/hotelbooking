@@ -17,3 +17,7 @@
     height:262px;
     width:420px;
     }
+
+    :host mat-error {
+      color: red !important;
+    }

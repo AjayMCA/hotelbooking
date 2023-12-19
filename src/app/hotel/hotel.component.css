@@ -1,8 +1,11 @@
+.form-control {
+  width: 96%;
+}
 .inline-text{
     margin-left: 20px;
   }
   .img-fluid {
-    height: 238px;
+    height: 217px;
 }
 
 .col-md-8 {

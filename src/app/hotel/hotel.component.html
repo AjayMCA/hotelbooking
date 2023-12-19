@@ -5,7 +5,7 @@
         <div class="col-12 col-md-2 d-none d-sm-block">
 
         </div>
-        <div class="col-12 col-md-8 col-sm">
+        <div class="col-12 col-md-10 col-sm">
             <div class="form-group">
                 <input type="text" class="form-control" (keyup)="productSearch()" [(ngModel)] = searchQuery placeholder="Search by Name">
             </div>
@@ -34,10 +34,10 @@
             
         <div class="col-md-10">
             <div class="row" let *ngFor="let hotel of hotelData | paginate: { itemsPerPage: pageSize, currentPage: page }">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <img class="img-fluid d-block w-100 rounded mx-auto img-thumbnail" src="../../assets/{{hotel.pic}}" /><br>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <ul class="list-group">
                         <li class="list-group-item">
                             <div class="row">
